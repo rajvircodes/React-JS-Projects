@@ -2,6 +2,9 @@
 
 My first React project! Built to learn components and props.
 
+## 📸 Screenshot
+![Profile Card Screenshot](./profile-card.png)
+
 ## 🚀 Features
 - Reusable ProfileCard component
 - Props demonstration
@@ -9,19 +12,8 @@ My first React project! Built to learn components and props.
 - Hover animations
 
 ## 🛠️ Technologies
-- React
-- Vite
-- CSS3
-
-## 📦 Installation
-
-\`\`\`bash
-npm install
-npm run dev
-\`\`\`
-
-## 📸 Screenshot
-![Profile Cards](screenshot.png)
+![React](https://img.shields.io/badge/React-18.0-blue)
+![Vite](https://img.shields.io/badge/Vite-4.0-purple)
 
 ## 🎯 Learning Goals
 - Understanding React components
