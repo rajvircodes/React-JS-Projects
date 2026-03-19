@@ -1,0 +1,61 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #747478;
+  color: #333;
+  line-height: 1.6;
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 70px 40px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  background-color: gainsboro;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+#increase{
+  background-color: rgb(13, 90, 13);
+  color: white;
+}
+
+#decrease{
+  background-color: rgb(163, 84, 0);
+  color: white;
+}
+
+#reset {
+  background-color: rgb(131, 19, 19);
+  color: white;
+}
