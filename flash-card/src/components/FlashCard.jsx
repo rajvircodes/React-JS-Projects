@@ -1,13 +1,18 @@
-import { useState } from "react"
+import { useState } from "react";
 
-const FlashCard = ({question, answer}) => {
-    const [isFlipped, setIsFlipped] = useState(false)
+function FlashCard({ question, answer }) {
+  const [isFlipped, setIsFlipped] = useState(false);
+
   return (
-    <div>   
-        <h2>{isFlipped ? answer : question}</h2>
-        <button onClick={() => setIsFlipped(!isFlipped)}>Flip card</button>
+    <div
+      className="flashcard"
+      onClick={() => setIsFlipped(!isFlipped)}
+    >
+      <h2>
+        {isFlipped ? answer : question}
+      </h2>
     </div>
-  )
+  );
 }
 
-export default FlashCard
+export default FlashCard;
