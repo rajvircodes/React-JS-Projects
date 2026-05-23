@@ -8,20 +8,20 @@ const App = () => {
     <div className="app">
       <h1>Meet Our Team</h1>
       <div className="profile-container">
-      <ProfileCard 
-        name="Rajvirsinh"
-        role="Frontedn Developer"
-        bio="I love building beautiful UIs with React! ☕ Coffee enthusiast."
-        avatar="https://i.pinimg.com/736x/f2/48/c4/f248c4c3bd31d48ec47e867e7f32171d.jpg"
-        followers={63}
-        following={97}
+        <ProfileCard
+          name="Rajvirsinh"
+          role="Frontedn Developer"
+          bio="I love building beautiful UIs with React! ☕ Coffee enthusiast."
+          avatar="https://i.pinimg.com/736x/f2/48/c4/f248c4c3bd31d48ec47e867e7f32171d.jpg"
+          followers={63}
+          following={97}
         />
 
         <ProfileCard
-          name="Dharmesh"
-          role="UI/UX Designer"
+          name="Aniket"
+          role="Backend developer"
           bio="Designing experiences that users love. 🎨 Creative problem solver."
-          avatar="https://i.pinimg.com/736x/fc/cf/36/fccf365288b90c4a0a4fb410ca24c889.jpg"
+          avatar="https://i.pinimg.com/736x/fc/cf/36/fccf3x65288b90c4a0a4fb410ca24c889.jpg"
           followers={412}
           following={311}
         />

@@ -14,7 +14,7 @@ function TodoList() {
   // Add new todo
   const addTodo = (text) => {
     const newTodo = {
-      id: Date.now(), // Simple unique ID
+      id: Date.now(), // Simple unique ID 
       text: text,
       completed: false
     };

@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f0f2f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app {
+  background: #ffffff;
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h1.question {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+.options {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 25px 0;
+}
+
+.options button {
+  width: 100%;
+  min-width: 400px;
+  padding: 14px 20px;
+  font-size: 1rem;
+  text-align: left;
+  background-color: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #495057;
+}
+
+.options button:hover:not(.correct):not(.wrong) {
+  background-color: #e9ecef;
+  border-color: #ced4da;
+  transform: translateY(-1px);
+}
+
+.options button.correct {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+  font-weight: 600;
+}
+
+.options button.wrong {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+#next-btn, 
+.result button {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-bottom: 15px;
+}
+
+#next-btn:hover, 
+.result button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  color: #6c757d;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.result {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.result h2 {
+  font-size: 1.8rem;
+}
+
+.result p {
+  font-size: 1.2rem;
+  color: #28a745;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
