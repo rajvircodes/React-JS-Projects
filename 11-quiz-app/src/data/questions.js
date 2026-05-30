@@ -51,4 +51,10 @@ const questions = [
   }
 ];
 
+
+
+console.log(name);
+
+
+
 export default questions;
