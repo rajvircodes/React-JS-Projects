@@ -14,6 +14,12 @@
   gap: 12px;
 }
 
+button {
+  border-radius: 50%;
+  border:none;
+  height: 50px;
+}
+
 .search-bar input {
   height: 50px;
   border: none;
@@ -31,6 +37,7 @@
   border-radius: 50%;
   background: #ebfffc;
   cursor: pointer;
+ 
 }
 
 .weather-icon {

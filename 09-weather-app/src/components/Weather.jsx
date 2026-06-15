@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import '../components/Weather.css'
 
 import search_icon from '../assets/search.png'
@@ -7,7 +7,7 @@ import humidity_icon from '../assets/humidity.png'
 import wind_icon from '../assets/wind.png'
 import axios from 'axios'
 
-const API_KEY = '6b2f58594380cd5428f8b702c29c1698' // 🔑 Replace with your OpenWeatherMap API key
+const API_KEY = '6b2f58594380cd5428f8b702c29c1698'
 
 const Weather = () => {
   const [city, setCity] = useState('')
