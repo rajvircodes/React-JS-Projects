@@ -1,16 +1,42 @@
-# React + Vite
+# 🌤️ Responsive Weather Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and dynamic Weather Application built with React. This application allows users to search for real-time weather information of cities worldwide, featuring smooth UI transitions and location-based data.
 
-Currently, two official plugins are available:
+👉 **[Live Demo](https://react-js-projects-coral.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📸 Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Application Preview](./public/prev-img.png)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- **Real-Time Data:** Fetches up-to-date weather details including temperature, humidity, wind speed, and weather conditions.
+- **Dynamic Search:** Search for weather data by city name instantly.
+- **Location-Based Weather:** (Optional/If applicable) Detects user location to provide local weather forecasts.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop viewports.
+- **Interactive UI:** Visually updates background scenes or icons depending on the current weather conditions (e.g., sunny, rainy, snowy).
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend:** React.js (Hooks, Functional Components)
+- **Styling:** CSS3 / Tailwind CSS (Modify based on your styling choice)
+- **API Integration:** OpenWeatherMap API (or the specific API you used)
+- **Deployment:** Vercel
+
+---
+
+## 🛠️ Installation and Setup
+
+Follow these steps to run the project locally:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/rajvircodes/React-JS-Projects)
+cd your-repo-name
