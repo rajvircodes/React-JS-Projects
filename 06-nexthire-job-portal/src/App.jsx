@@ -6,24 +6,26 @@ import HomeCard from './components/HomeCard.jsx';
 import JobListings from './components/JobListings.jsx';
 import ViewAllJobs from './components/ViewAllJobs.jsx';
 import NewJob from './pages/NewJob.jsx';
+import NotFoundPage from './pages/NotFoundPage.jsx';
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route 
-          path="/" 
+        <Route
+          path="/"
           element={
             <>
               <Hero />
               <HomeCard />
-              <JobListings isHome={true} /> 
+              <JobListings isHome={true} />
               <ViewAllJobs />
             </>
-          } 
+          }
         />
         <Route path="/jobs/:id" element={<NewJob />} />
+          <Route path='*' element={<NotFoundPage/>}/>
       </Routes>
     </>
   );
